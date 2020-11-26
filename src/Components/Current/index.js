@@ -1,7 +1,12 @@
 import React from 'react';
+import { CurrentWeather } from './CurrentElements';
 
 function Current() {
-  return <h2>Overcast Weather App</h2>;
+  return (
+    <>
+      <CurrentWeather>Overcast Weather App</CurrentWeather>
+    </>
+  );
 }
 
 export default Current;
