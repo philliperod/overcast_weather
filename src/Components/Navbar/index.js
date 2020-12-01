@@ -18,8 +18,6 @@ const Nav = () => {
     )
       .then((response) => response.json())
       .then((response) => setResponseObj(response));
-
-    console.log(response);
   };
 
   const handleSubmit = (event) => {
