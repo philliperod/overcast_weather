@@ -5,9 +5,9 @@ import Hourly from './Components/Hourly';
 import Nav from './Components/Navbar';
 import Radar from './Components/Radar';
 const dotenv = require('dotenv').config();
+const apiKey = process.env.REACT_APP_API_KEY;
 
 function App() {
-  const apiKey = '3c005018751f1dcc72c1d0f6c2e92f7b';
   const [zipCode, setZipCode] = useState('');
   const [weather, setWeather] = useState([]);
 
